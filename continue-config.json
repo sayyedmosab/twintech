@@ -1,0 +1,18 @@
+{
+  "models": [
+    {
+      "title": "GitHub Copilot with MCP",
+      "provider": "copilot",
+      "model": "gpt-4",
+      "contextLength": 8192
+    }
+  ],
+  "mcpServers": {
+    "aitwintech-autonomous": {
+      "command": "npm",
+      "args": ["run", "mcp:autonomous"],
+      "cwd": "/home/development/aitwintech"
+    }
+  },
+  "allowAnonymousTelemetry": false
+}

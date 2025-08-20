@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "aitwintech-project-manager": {
+      "command": "npx",
+      "args": ["mcp-project-manager"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "aitwintech-project-guard": {
+      "command": "npx", 
+      "args": ["mcp-project-guard"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "aitwintech-spec-workflow": {
+      "command": "npx",
+      "args": ["spec-workflow-mcp"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "aitwintech-ai-expert": {
+      "command": "npx",
+      "args": ["ai-expert-workflow-mcp"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "aitwintech-memory": {
+      "command": "npx",
+      "args": ["mem100x"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "aitwintech-filesystem": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem", "/home/development/aitwintech"],
+      "cwd": "/home/development/aitwintech"
+    }
+  }
+}

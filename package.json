@@ -1,0 +1,40 @@
+{
+  "name": "josoor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "mcp:filesystem": "npx @modelcontextprotocol/server-filesystem /home/development/aitwintech",
+    "mcp:project-manager": "npx mcp-project-manager",
+    "mcp:project-guard": "npx mcp-project-guard",
+    "mcp:workflow": "npx ai-expert-workflow-mcp",
+    "mcp:spec-workflow": "npx spec-workflow-mcp",
+    "mcp:spec-advanced": "npx @pimzino/spec-workflow-mcp",
+    "mcp:memory": "npx mem100x",
+    "mcp:memory-sqlite": "npx @iachilles/memento",
+    "mcp:memory-nova": "npx @nova-mcp/mcp-nova",
+    "mcp:database": "npx mcp-sqlite --db-path ./project.db",
+    "mcp:thinking": "npx @modelcontextprotocol/server-sequential-thinking",
+    "mcp:inspector": "npx @modelcontextprotocol/inspector --config ./mcp-config.json",
+    "mcp:list": "./mcp-server.sh list",
+    "mcp:autonomous": "echo 'Starting Autonomous Project Management Stack...' && npm run mcp:project-manager & npm run mcp:spec-workflow & npm run mcp:project-guard & npm run mcp:memory"
+  },
+  "dependencies": {
+    "@google/genai": "^1.14.0",
+    "@supabase/supabase-js": "^2.55.0",
+    "dotenv": "^17.2.1",
+    "lucide-react": "^0.539.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

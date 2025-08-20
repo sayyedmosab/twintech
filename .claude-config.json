@@ -1,0 +1,37 @@
+{
+  "anthropic": {
+    "apiKey": "YOUR_CLAUDE_API_KEY_HERE",
+    "model": "claude-3-5-sonnet-20241022"
+  },
+  "mcpServers": {
+    "project-manager": {
+      "command": "npx",
+      "args": ["mcp-project-manager"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "project-guard": {
+      "command": "npx", 
+      "args": ["mcp-project-guard"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "spec-workflow": {
+      "command": "npx",
+      "args": ["spec-workflow-mcp"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["mem100x"],
+      "cwd": "/home/development/aitwintech"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem", "/home/development/aitwintech"],
+      "cwd": "/home/development/aitwintech"
+    }
+  },
+  "workspaceConfig": {
+    "autonomousMode": true,
+    "projectPath": "/home/development/aitwintech"
+  }
+}

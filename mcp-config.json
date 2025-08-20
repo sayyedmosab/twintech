@@ -1,0 +1,134 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-filesystem",
+        "/home/development/aitwintech"
+      ],
+      "description": "📁 File system operations for the project"
+    },
+    "project-manager": {
+      "command": "npx",
+      "args": [
+        "mcp-project-manager"
+      ],
+      "description": "👨‍💼 Autonomous project manager - hierarchical task management, approvals, QA supervision"
+    },
+    "project-guard": {
+      "command": "npx",
+      "args": [
+        "mcp-project-guard"
+      ],
+      "description": "🛡️ Architecture validation and code quality assurance across multiple languages"
+    },
+    "workflow-expert": {
+      "command": "npx",
+      "args": [
+        "ai-expert-workflow-mcp"
+      ],
+      "description": "🧠 AI expert workflow with structured conversation flow and task tracking"
+    },
+    "spec-workflow": {
+      "command": "npx",
+      "args": [
+        "spec-workflow-mcp"
+      ],
+      "description": "📋 Spec-driven development workflow (requirements → design → implementation)"
+    },
+    "spec-workflow-advanced": {
+      "command": "npx",
+      "args": [
+        "@pimzino/spec-workflow-mcp"
+      ],
+      "description": "🚀 Advanced spec workflow with real-time dashboard and project management"
+    },
+    "memory-highperf": {
+      "command": "npx",
+      "args": [
+        "mem100x"
+      ],
+      "description": "⚡ Ultra-fast memory server (66k+ entities/sec) with intelligent context detection"
+    },
+    "memory-sqlite": {
+      "command": "npx",
+      "args": [
+        "@iachilles/memento"
+      ],
+      "description": "🧠 SQLite-based memory with FTS5 full-text search and vector similarity"
+    },
+    "database-sqlite": {
+      "command": "npx",
+      "args": [
+        "mcp-sqlite",
+        "--db-path",
+        "/home/development/aitwintech/project.db"
+      ],
+      "description": "📊 SQLite database operations and queries"
+    },
+    "memory-nova": {
+      "command": "npx",
+      "args": [
+        "@nova-mcp/mcp-nova"
+      ],
+      "description": "🎯 Project memory system - stops losing context, saves tokens"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "description": "🤔 Sequential thinking and problem solving"
+    }
+  },
+  "development": {
+    "inspector": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/inspector"
+      ],
+      "description": "🔍 MCP protocol inspector for debugging"
+    }
+  },
+  "autonomousWorkflow": {
+    "description": "🤖 AUTONOMOUS PROJECT MANAGEMENT WORKFLOW",
+    "steps": [
+      "1. 👨‍💼 project-manager: Creates detailed project plan with tasks",
+      "2. 🧠 workflow-expert: Structures conversation flow and tracks topics", 
+      "3. 📋 spec-workflow: Manages requirements → design → implementation",
+      "4. 🛡️ project-guard: Validates architecture and code quality",
+      "5. 🔄 Iterative approval loop until QA passes"
+    ]
+  },
+  "defaultTimeout": 30000,
+  "retryAttempts": 3,
+  "notes": [
+    "🚀 AUTONOMOUS PROJECT MANAGEMENT WORKFLOW ENABLED!",
+    "",
+    "🎯 WORKFLOW PROCESS:",
+    "1. AI requests work → project-manager creates plan → user approves",
+    "2. AI works on tasks → project-guard validates quality",
+    "3. project-manager gives OK to proceed only after QA passes",
+    "4. Memory servers track everything for context retention",
+    "",
+    "👨‍💼 PROJECT MANAGEMENT SERVERS:",
+    "- mcp-project-manager: Hierarchical task management, approvals, supervision",
+    "- ai-expert-workflow-mcp: Structured workflow with topic tracking",
+    "- spec-workflow-mcp: Requirements → design → implementation pipeline",
+    "",
+    "�️ QUALITY ASSURANCE SERVERS:",
+    "- mcp-project-guard: Architecture validation across multiple languages",
+    "- @pimzino/spec-workflow-mcp: Advanced workflow with real-time dashboard",
+    "",
+    "🧠 SUPPORTING SERVERS:",
+    "- Memory servers: Context retention across sessions",
+    "- Database: Structured data storage",
+    "- Filesystem: Full project access",
+    "",
+    "🔧 SETUP INSTRUCTIONS:",
+    "1. Configure MCP servers in your AI client (VS Code/Claude/Cursor)",
+    "2. Start project-manager and spec-workflow servers",
+    "3. Request AI to create a project plan",
+    "4. Approve the plan → AI works autonomously with QA supervision!"
+  ]
+}
